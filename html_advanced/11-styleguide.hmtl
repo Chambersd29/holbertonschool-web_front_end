@@ -18,7 +18,7 @@
                         <section><h6>Heading level 6</h6></section>
 		</header>
                 <main>
-			<section><h2>Headings</h2>
+			<section><h2>Headings</h2></section>
 		</main>
                 <footer></footer>
         </body>
