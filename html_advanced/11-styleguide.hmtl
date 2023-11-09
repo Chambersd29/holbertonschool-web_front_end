@@ -10,12 +10,12 @@
         </head>
         <body>
                 <header>
-                        <section><h1>Heading level 1</h1>
-                        <section><h2>Heading level 2</h2>
-                        <section><h3>Heading level 3</h3>
-                        <section><h4>Heading level 4</h4>
-                        <section><h5>Heading level 5</h5>
-                        <section><h6>Heading level 6</h6>
+                        <section><h1>Heading level 1</h1></section>
+                        <section><h2>Heading level 2</h2></section>
+                        <section><h3>Heading level 3</h3></section>
+                        <section><h4>Heading level 4</h4></section>
+                        <section><h5>Heading level 5</h5></section>
+                        <section><h6>Heading level 6</h6></section>
 		</header>
                 <main>
 			<section><h2>Headings</h2>
