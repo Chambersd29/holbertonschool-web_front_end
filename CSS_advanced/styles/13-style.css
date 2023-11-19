@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -5,7 +8,8 @@
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    "sans-serif";
   --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -20,7 +24,7 @@
   --section-header-align: center;
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
-  --section-title-color: color-black;
+  --section-title-color: var(--color-black);
 }
 
 html {
@@ -28,19 +32,18 @@ html {
   font-size: 62.5%;
 }
 
-body,
-a {
+body {
   color: var(--text-color);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
-}
-
-body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
 }
 
 a {
+  color: var(--text-color);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
   text-decoration: none;
 }
 
@@ -62,22 +65,23 @@ h6 {
   text-align: var(--section-header-align);
 }
 
-.card-category,
-.section-tagline {
+.card-category {
   color: var(--color-primary);
 }
 
-.section-litle {
+.section-title {
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
-  margin: var(--section-litle-margin);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
   color: var(--section-title-color);
 }
 
 .section-tagline {
+  color: var(--color-primary);
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
-  font-weight: var (--font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 a:link {
